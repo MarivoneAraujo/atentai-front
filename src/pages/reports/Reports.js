@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ReportsInput from "./ReportsInput";
-import styled from "styled-components";
+import ReportsSingleInput from "./reportsSingleInput";
+
 
 import email from "./../../assets/reportsAssets/email.png";
 import whatts from "./../../assets/reportsAssets/whatts.png";
@@ -60,11 +61,8 @@ export default function Reports() {
               div2={"Semanal"}
               div3={"Anual"}
             />
-            <ReportsInput
+            <ReportsSingleInput
               title={"Horário"}
-              div1={null}
-              div2={null}
-              div3={null}
             />
           </ReportsInputPosition>
 
